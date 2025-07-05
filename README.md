@@ -5,3 +5,4 @@ world happiness index & inflation WHI- from https://www.kaggle.com/datasets/agra
 suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy which I merged into 1 single dataset using "Country" as a key value
 Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023
 
+Scatter plot made, based some logic on info from WHO https://www.who.int/data/gho/data/themes/topics/financial-protection
