@@ -6,3 +6,4 @@ suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marsh
 Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023
 
 Scatter plot made, based some logic on info from WHO https://www.who.int/data/gho/data/themes/topics/financial-protection
+Decided I needed SQL tables to continue my plot work, so have converted 2 tables to SQL so far
