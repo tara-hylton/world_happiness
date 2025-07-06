@@ -7,3 +7,4 @@ Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/
 
 Scatter plot made, based some logic on info from WHO https://www.who.int/data/gho/data/themes/topics/financial-protection
 Decided I needed SQL tables to continue my plot work, so have converted 2 tables to SQL so far
+All data converted to SQL tables
