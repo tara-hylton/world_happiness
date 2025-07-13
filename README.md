@@ -15,6 +15,8 @@ suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marsh
 Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023  
 
 Scatter plot made, based some logic on info from WHO https://www.who.int/data/gho/data/themes/topics/financial-protection  
+Made 2 bar plots based on fertility rates and suicide rates and how happiness affects those rates.
+Made a line chart based on the bottom 20 countries, all with a happiness score under 5, showing their life expectancy of men and women. 
 Decided I needed SQL tables to continue my plot work, so have converted 2 tables to SQL so far  
 All data converted to SQL tables  
 I used SQLiteStudio to view my tables and verify there was data in them. This was used as a troubleshooting measure when I having some issues visualizing the data and running queries on it.   
