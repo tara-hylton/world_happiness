@@ -3,7 +3,7 @@
 [x] Data cleaning/organizing complete   
 [x] Charts complete  
 [x] SQL tables complete    
-[ ] SQL data wrangling complete    
+[x] SQL data wrangling complete    
 [ ] Tableau set up complete  
 [ ] Testing  
 [ ] Finalizing/fixing/fine tuning  
@@ -20,7 +20,7 @@ Made a line chart based on the bottom 20 countries, all with a happiness score u
 Made a happiness chart through the years, using input to choose a country to look at and chart.  
 Added a scatter plot of perceptions of corruption and freedom to make life choices for the least happiest and most happiest 10 countries in 2023.  
 Added labels and insights to all of the charts that were completed.
-Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  
+Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  https://library.fiveable.me/key-terms/ap-macro/gdp-deflator  
 Added a function to keep some code that should only run one time from erroring.  
 
 Decided I needed SQL tables to continue my plot work, so have converted 2 tables to SQL so far  
@@ -28,3 +28,5 @@ All data converted to SQL tables
 I used SQLiteStudio to view my tables and verify there was data in them. This was used as a troubleshooting measure when I having some issues visualizing the data and running queries on it.   
 Had some issues with data being in the tables. That has been rectified and verified with a SQL query, along with the data showing in SQLiteStudio.   
 Some database names were also updated so they would not be confused with the dataframe names.  
+Updated all tables to work properly with queries.  
+Made multiple queries, looking at more things that may or may not point to what makes people happy in nations around the world.   
