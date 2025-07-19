@@ -20,6 +20,8 @@ Made a line chart based on the bottom 20 countries, all with a happiness score u
 Made a happiness chart through the years, using input to choose a country to look at and chart.  
 Added a scatter plot of perceptions of corruption and freedom to make life choices for the least happiest and most happiest 10 countries in 2023.  
 Added labels and insights to all of the charts that were completed.
+Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  
+Added a function to keep some code that should only run one time from erroring.  
 
 Decided I needed SQL tables to continue my plot work, so have converted 2 tables to SQL so far  
 All data converted to SQL tables  
