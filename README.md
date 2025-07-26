@@ -41,7 +41,9 @@ Made multiple queries, looking at more things that may or may not point to what 
 [x] Data cleaning/organizing complete   
 [x] Charts complete  
 [x] SQL tables complete    
-[x] SQL data wrangling complete 
+[ ] SQL data wrangling complete 
+[x] Completed function requirements  
+[ ] Completed markdown, type hinting, docstrings  
 [x] Completing README requirements  
 [ ] Tableau set up complete  
 [ ] Testing  
