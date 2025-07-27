@@ -28,7 +28,7 @@ Made a line chart based on the bottom 20 countries, all with a happiness score u
 Made a happiness chart through the years, using input to choose a country to look at and chart.  
 Added a scatter plot of perceptions of corruption and freedom to make life choices for the least happiest and most happiest 10 countries in 2023.  
 Added labels and insights to all of the charts that were completed.
-Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  https://library.fiveable.me/key-terms/ap-macro/gdp-deflator  
+Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  https://library.fiveable.me/key-terms/ap-macro/gdp-deflator, https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation#:~:text=In%20an%20inflationary%20environment%2C%20unevenly,payers%20of%20fixed%20interest%20rates.  
 Added a function to keep some code that should only run one time from erroring.  
 
 All data converted to SQL tables  
@@ -36,15 +36,18 @@ I used SQLiteStudio to view my tables and verify there was data in them. This wa
 Had some issues with data being in the tables. That has been rectified and verified with a SQL query, along with the data showing in SQLiteStudio.   
 Some database names were also updated so they would not be confused with the dataframe names.  
 Updated all tables to work properly with queries.  
-Made multiple queries, looking at more things that may or may not point to what makes people happy in nations around the world.   
+Made multiple queries, looking at more things that may or may not point to what makes people happy in nations around the world.  
+https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate  
+
 
 [x] Data cleaning/organizing complete   
 [x] Charts complete  
 [x] SQL tables complete    
-[ ] SQL data wrangling complete 
+[x] SQL data wrangling complete 
 [x] Completed function requirements  
-[ ] Completed markdown, type hinting, docstrings  
+[x] Completed markdown, type hinting, docstrings  
 [x] Completing README requirements  
+[x] Made requirements.txt  
 [ ] Tableau set up complete  
 [ ] Testing  
 [ ] Finalizing/fixing/fine tuning  
