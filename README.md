@@ -2,6 +2,7 @@
 Jupyter notebook was used to allow for a narrative-driven presentation of code and charts.  
 Pandas was used in conjuction with python to clean the data to identify what makes people happy/unhappy around the globe, along with other effects of happiness/unhappiness. All data is on a relative path.  
 Matplotlib and Seaborn were used for charting purposes.  
+IPython was used to clear input in areas, just to make things look nice overall.
 Please run requirements.txt to download the virtual environment and all needed libraries.  
 
 The goal of this project is to find what makes people happier in some counties versus what does not make them happy in other countries.  
@@ -23,18 +24,18 @@ suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marsh
 Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023  
 
 Scatter plot made, based some logic on info from WHO https://www.who.int/data/gho/data/themes/topics/financial-protection  
-Made 2 bar plots based on fertility rates and suicide rates and how happiness affects those rates.  
+Made 2 bar plots based on fertility rates and how happiness affects those rates.  
 Made a line chart based on the bottom 20 countries, all with a happiness score under 5, showing their life expectancy of men and women.   
-Made a happiness chart through the years, using input to choose a country to look at and chart.  
-Added a scatter plot of perceptions of corruption and freedom to make life choices for the least happiest and most happiest 10 countries in 2023.  
-Added labels and insights to all of the charts that were completed.
-Added a new chart with gdp deflator index (amount of inflation), using input to choose a country to look at and chart.  https://library.fiveable.me/key-terms/ap-macro/gdp-deflator, https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation#:~:text=In%20an%20inflationary%20environment%2C%20unevenly,payers%20of%20fixed%20interest%20rates.  
+Made a happiness chart through the years, using input to choose a country to chart. 
+Added a chart with gdp deflator index (amount of inflation), using input to choose a country to chart.  https://library.fiveable.me/key-terms/ap-macro/gdp-deflator, https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation#:~:text=In%20an%20inflationary%20environment%2C%20unevenly,payers%20of%20fixed%20interest%20rates.  
+Added a scatter plot of perceptions of corruption and freedom to make life choices for the 10 least happiest and most happiest countries in 2023.  
+Added labels and insights and new colors to all of the charts that were completed.
 Added a function to keep some code that should only run one time from erroring.  
+Added functions to the charts that take input to catch input errors.
 
 All data converted to SQL tables  
 I used SQLiteStudio to view my tables and verify there was data in them. This was used as a troubleshooting measure when I having some issues visualizing the data and running queries on it.   
 Had some issues with data being in the tables. That has been rectified and verified with a SQL query, along with the data showing in SQLiteStudio.   
-Some database names were also updated so they would not be confused with the dataframe names.  
 Updated all tables to work properly with queries.  
 Made multiple queries, looking at more things that may or may not point to what makes people happy in nations around the world.  
 https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate  
