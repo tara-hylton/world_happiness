@@ -32,6 +32,8 @@ Added a scatter plot of perceptions of corruption and freedom to make life choic
 Added labels and insights and new colors to all of the charts that were completed.
 Added a function to keep some code that should only run one time from erroring.  
 Added functions to the charts that take input to catch input errors.
+Added another chart for CO2 emissions vs forest area %. Information from markdown comes from https://www.sciencedirect.com/science/article/abs/pii/S0301479724018139  
+
 
 All data converted to SQL tables  
 I used SQLiteStudio to view my tables and verify there was data in them. This was used as a troubleshooting measure when I having some issues visualizing the data and running queries on it.   
