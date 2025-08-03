@@ -1,16 +1,16 @@
 # World Happiness Report
 ## Objective:
-This project explores multiple factors to see what drives happiness, or unhappiness, both worldwide and regional. Using data from the world happiness report, global country information report, world happiness and inflation report, suicide rate report and life expectancy report, I was able to pull data from several different places and view what drives our happiness.
+This project explores multiple factors to see what drives happiness, or unhappiness, both worldwide and regional. Using data from the world happiness report, global country information report, world happiness and inflation report, suicide rate report and life expectancy report, I was able to pull data from several different places and view what drives our happiness.  
 
 
 ## Project Setup Instructions:
->Fork the repo and clone it to your own computer
->Load the clone in your code editor
->Create and activate a virtual environment in that folder
->Install the "requirements.txt" file
->Run "world happiness.ipynb"
-(If you need to select an environment/kernal to run it in, choose Python > venv. It should have a star next to it.)
-This program does ask for your input at times, so please be mindful of the prompts.
++ Fork the repo and clone it to your own computer
++ Load the clone in your code editor
++ Create and activate a virtual environment in that folder
++ Install the "requirements.txt" file
++ Run "world happiness.ipynb"
+(If you need to select an environment/kernal to run it in, choose Python > venv. It should have a star next to it.)  
+This program does ask for your input at times, so please be mindful of the prompts.  
 
 ## Virtual Environment Commands 
 | **Command** |           **Windows**                 |            **Linux/Mac**             | 
@@ -23,7 +23,7 @@ This program does ask for your input at times, so please be mindful of the promp
 
 ## Project Overview:
 This dives into many factors of world happiness, such as mortality, inflation, health cost, freedom of choice and more. 
-This object intends to:
+This object intends to:  
 + Clean and prepare the data to ensure usibility.
 + Group the data by country, year, or comparable groupings to see what does/does not affect happiness.
 + Create charts for visiblity to show outliers or trends leading to happiness/unhappiness.
@@ -33,12 +33,12 @@ This object intends to:
 
 ## Technologies Used:
 Jupyter notebook was used to allow for a narrative-driven presentation of code and charts.  
-Pandas was used in conjuction with Python to clean the data. All data is on a relative path.  
+Pandas was used in conjuction with Python to clean the data. All data is on a relative path.    
 Matplotlib and Seaborn were used for charting and visualization purposes.  
-IPython clear input was used to clear input in areas, just to make things look nice overall.
-SQlite3 was used for quick handling to join data for querying purposes..
-Gitbash and Github were used for uploading/downloading and viewing purposes (in that order).
-Tableau was used for a finished product view of the project.
+IPython clear input was used to clear input in areas, just to make things look nice overall.  
+SQlite3 was used for quick handling to join data for querying purposes.  
+Gitbash and Github were used for uploading/downloading and viewing purposes (in that order).  
+Tableau was used for a finished product view of the project.  
 Please run requirements.txt to download the virtual environment and all needed libraries.  
 
 
@@ -65,25 +65,25 @@ Global country information dataset: Country, Density, Abbreviation, Agricultural
 
 ## Data summary:
 **Total records**  
-world happiness report: 2363 rows, 11 columns
-life expectancy & suicide rate: 150 rows, 7 columns
-world happiness & inflation report: 1232 rows, 8 columns  
+world happiness report: 2363 rows, 11 columns  
+life expectancy & suicide rate: 150 rows, 7 columns  
+world happiness & inflation report: 1232 rows, 8 columns    
 global country information report: 194 rows, 19 columns  
 
 ## Basic stats:
 All Happiness is on a 1-10 scale over 165 countries over 20 years (2005-2024)  
-Happiness mean: 5.48 
-Happiness min: 1.28  
-Happiness max: 8.01  
+Happiness mean: 5.48   
+Happiness min: 1.28   
+Happiness max: 8.01   
 
 
 ## Data sources:
-All data sources used during this project are listed below.  Any additional information that I used while researching this project is listed in the personal notes & tracking section.
+All data sources used during this project are listed below.  Any additional information that I used while researching this project is listed in the personal notes & tracking section.  
 I currently have 5 datasets I am planning on using, although some of the columns/data may not be used by the end.   
-**world happiness report WHR- from https://www.kaggle.com/datasets/jainaru/world-happiness-report-2024-yearly-updated which encapsulates 2005-2024**  
-**world happiness index & inflation WHI- from https://www.kaggle.com/datasets/agrafintech/world-happiness-index-and-inflation-dataset covering 2015-2023**  
-**suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy which I merged into 1 single dataset using "Country" as a key value, both from 2023**  
-**Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023**  
+**world happiness report WHR- from https://www.kaggle.com/datasets/jainaru/world-happiness-report-2024-yearly-updated which encapsulates 2005-2024**\
+**world happiness index & inflation WHI- from https://www.kaggle.com/datasets/agrafintech/world-happiness-index-and-inflation-dataset covering 2015-2023**\  
+**suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy which I merged into 1 single dataset using "Country" as a key value, both from 2023**\
+**Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023**\
 
 
 
@@ -105,7 +105,7 @@ I used SQLiteStudio to view my tables and verify there was data in them. This wa
 Had some issues with data being in the tables. That has been rectified and verified with a SQL query, along with the data showing in SQLiteStudio.   
 Updated all tables to work properly with queries.  
 Made multiple queries, looking at more things that may or may not point to what makes people happy in nations around the world.  
-https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate  
+https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate   
 
 
 [x] Data cleaning/organizing complete   
