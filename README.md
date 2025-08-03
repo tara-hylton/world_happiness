@@ -23,7 +23,7 @@ This program does ask for your input at times, so please be mindful of the promp
 
 ## Project Overview:
 This dives into many factors of world happiness, such as mortality, inflation, health cost, freedom of choice and more. 
-This object intends to:  
+This project intends to:  
 + Clean and prepare the data to ensure usibility.
 + Group the data by country, year, or comparable groupings to see what does/does not affect happiness.
 + Create charts for visiblity to show outliers or trends leading to happiness/unhappiness.
@@ -117,5 +117,5 @@ https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate
 [x] Completing README requirements  
 [x] Made requirements.txt  
 [ ] Tableau set up complete  
-[ ] Testing  
+[x] Testing  
 [ ] Finalizing/fixing/fine tuning  
