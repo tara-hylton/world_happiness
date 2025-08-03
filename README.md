@@ -81,7 +81,7 @@ Happiness max: 8.01
 All data sources used during this project are listed below.  Any additional information that I used while researching this project is listed in the personal notes & tracking section.  
 I currently have 5 datasets I am planning on using, although some of the columns/data may not be used by the end.   
 **World happiness report WHR- from https://www.kaggle.com/datasets/jainaru/world-happiness-report-2024-yearly-updated which encapsulates 2005-2024**\
-**World happiness index & inflation WHI- from https://www.kaggle.com/datasets/agrafintech/world-happiness-index-and-inflation-dataset covering 2015-2023**
+**World happiness index & inflation WHI- from https://www.kaggle.com/datasets/agrafintech/world-happiness-index-and-inflation-dataset covering 2015-2023**\
 **Suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy which I merged into 1 single dataset using "Country" as a key value, both from 2023**\
 **Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023**
 
