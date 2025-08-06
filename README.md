@@ -61,7 +61,11 @@ Perceptions of corruption
 The world happiness index & inflation report includes: Country, Year (2015-2023), Headline Consumer Price Inflation, Energy Consumer Price Inflation, Food Consumer Price Inflation, Official Core Consumer Price Inflation, Producer Price Inflation, GDP deflator Index growth rate, Continent/Region, Score (happiness), GDP per Capita, Social support, Healthy life expectancy at birth, Freedom to make life choices, Generosity, Perceptions of corruption.  
 Suicide rate: Country, GDP per capita, Suicide rate (from 2023).  
 Life expectancy: Country, Life Expectancy (years) - Men, Life Expectancy (years) - Women, Happiness Score, Fertility Rate (births per woman) (from 2023).  
-Global country information dataset: Country, Density, Abbreviation, Agricultural Land( %), Land Area(Km2), Armed Forces size, Birth Rate, Calling Code, Capital/Major City, Co2-Emissions, CPI, CPI Change (%), Currency-Code, Fertility Rate, Forested Area (%), Gasoline Price, GDP, Gross primary education enrollment (%), Gross tertiary education enrollment (%), Infant mortality, Largest city, Life expectancy, Maternal mortality ratio, Minimum wage, Official language, Out of pocket health expenditure, Physicians per thousand, Population, Population: Labor force participation (%), Population: Labor force participation (%), Total tax rate, Unemployment rate, Urban_population, Latitude, Longitude.   -->
+Global country information dataset: Country, Density, Abbreviation, Agricultural Land( %), Land Area(Km2), Armed Forces size, Birth Rate, Calling Code, Capital/Major City, Co2-Emissions, CPI, CPI Change (%), Currency-Code, Fertility Rate, Forested Area (%), Gasoline Price, GDP, Gross primary education enrollment (%), Gross tertiary education enrollment (%), Infant mortality, Largest city, Life expectancy, Maternal mortality ratio, Minimum wage, Official language, Out of pocket health expenditure, Physicians per thousand, Population, Population: Labor force participation (%), Population: Labor force participation (%), Total tax rate, Unemployment rate, Urban_population, Latitude, Longitude.   
+
+continents2: only the name and subregion columns were used in tableau as a last minute addition.
+name: text
+subregion: text-->
 
 ## Data summary:
 **Total records**  
@@ -83,7 +87,9 @@ I currently have 5 datasets I am planning on using, although some of the columns
 **World happiness report WHR- from https://www.kaggle.com/datasets/jainaru/world-happiness-report-2024-yearly-updated which encapsulates 2005-2024**\
 **World happiness index & inflation WHI- from https://www.kaggle.com/datasets/agrafintech/world-happiness-index-and-inflation-dataset covering 2015-2023**\
 **Suicide rate and life expectancy L&D- from https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy which I merged into 1 single dataset using "Country" as a key value, both from 2023**\
-**Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023**
+**Global Country Information Dataset 2023 world_data- from https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023 from 2023**  
+A last minute data source was added just to Tableau to allow "sub-regions" to be used on the dash board, as only one of the above datasets had regions and they were not friendly for sorting/using. This last dataset was added just to be able to sort by region/subregions on the Tableau dashboard.  
+continents2.csv -from https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region
 
 
 
@@ -116,6 +122,6 @@ https://www.macrotrends.net/global-metrics/countries/wld/world/unemployment-rate
 [x] Completed markdown, type hinting, docstrings  
 [x] Completing README requirements  
 [x] Made requirements.txt  
-[ ] Tableau set up complete  
+[x] Tableau set up complete  
 [x] Testing  
 [ ] Finalizing/fixing/fine tuning  
