@@ -52,7 +52,15 @@ global country information report: 194 rows, 19 columns
 All Happiness is on a 1-10 scale over 165 countries over 20 years (2005-2024)  
 Happiness mean: 5.48   
 Happiness min: 1.28   
-Happiness max: 8.01
+Happiness max: 8.01  
+Countries:  
+w_h_data: 165  
+inf_data: 150  
+life_death_data: 148  
+gci_data: 155
+Average of 154 countries used
+Time: over 20 years but focused on 2023
+
 
 ## Data dictionary:
 
